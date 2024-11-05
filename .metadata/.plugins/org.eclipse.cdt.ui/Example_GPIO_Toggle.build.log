@@ -1,0 +1,8 @@
+15:02:56 **** Incremental Build of configuration Debug for project Example_GPIO_Toggle ****
+make -j16 all 
+Error: Cannot find the specified linker script. Check the linker settings in the build configuration.
+make: *** [makefile:85: fail-specified-linker-script-missing] Error 2
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+15:02:57 Build Failed. 2 errors, 0 warnings. (took 162ms)
+
