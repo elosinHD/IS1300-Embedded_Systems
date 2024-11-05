@@ -441,3 +441,254 @@ Finished building: default.size.stdout
  
 Finished building: Ping_Pong.list
  
+15:39:30 **** Incremental Build of configuration Debug for project Ping_Pong ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/pingpong.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/pingpong.d" -MT"Core/Src/pingpong.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/pingpong.o"
+arm-none-eabi-gcc "../Core/Src/pingpong_functions.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/pingpong_functions.d" -MT"Core/Src/pingpong_functions.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/pingpong_functions.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+arm-none-eabi-gcc "../Core/Src/test.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/test.d" -MT"Core/Src/test.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/test.o"
+../Core/Src/test.c: In function 'Test_program':
+../Core/Src/test.c:6:1: warning: implicit declaration of function 'Test_Led' [-Wimplicit-function-declaration]
+    6 | Test_Led();
+      | ^~~~~~~~
+../Core/Src/test.c: At top level:
+../Core/Src/test.c:8:6: warning: conflicting types for 'Test_Led'; have 'void(void)'
+    8 | void Test_Led(void)
+      |      ^~~~~~~~
+../Core/Src/test.c:6:1: note: previous implicit declaration of 'Test_Led' with type 'void(void)'
+    6 | Test_Led();
+      | ^~~~~~~~
+../Core/Src/test.c: In function 'Test_Led':
+../Core/Src/test.c:13:1: warning: implicit declaration of function 'Led_on' [-Wimplicit-function-declaration]
+   13 | Led_on(Lednr);
+      | ^~~~~~
+../Core/Src/test.c:14:1: warning: implicit declaration of function 'HAL_Delay' [-Wimplicit-function-declaration]
+   14 | HAL_Delay(500);
+      | ^~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:93:3: warning: implicit declaration of function 'Test_program' [-Wimplicit-function-declaration]
+   93 |   Test_program();
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:92: error: unterminated #else
+   92 | #ifdef RUN_TEST_PROGRAM
+      | 
+../Core/Src/main.c:93:3: error: expected declaration or statement at end of input
+   93 |   Test_program();
+      |   ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:46: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:40:52 **** Incremental Build of configuration Debug for project Ping_Pong ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:93:3: warning: implicit declaration of function 'Test_program' [-Wimplicit-function-declaration]
+   93 |   Test_program();
+      |   ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "Ping_Pong.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Ping_Pong\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ping_Pong.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ping_Pong.elf
+ 
+arm-none-eabi-size  Ping_Pong.elf 
+arm-none-eabi-objdump -h -S Ping_Pong.elf  > "Ping_Pong.list"
+   text	   data	    bss	    dec	    hex	filename
+   6640	     12	   1572	   8224	   2020	Ping_Pong.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ping_Pong.list
+ 
+15:46:17 **** Incremental Build of configuration Debug for project Ping_Pong ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ping_Pong.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Ping_Pong\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ping_Pong.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ping_Pong.elf
+ 
+arm-none-eabi-size  Ping_Pong.elf 
+arm-none-eabi-objdump -h -S Ping_Pong.elf  > "Ping_Pong.list"
+   text	   data	    bss	    dec	    hex	filename
+   6640	     12	   1572	   8224	   2020	Ping_Pong.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ping_Pong.list
+ 
+15:53:00 **** Incremental Build of configuration Debug for project Ping_Pong ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/pingpong_functions.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/pingpong_functions.d" -MT"Core/Src/pingpong_functions.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/pingpong_functions.o"
+../Core/Src/pingpong_functions.c: In function 'Led_on':
+../Core/Src/pingpong_functions.c:8:1: error: called object is not a function or function pointer
+    8 | 22(34)
+      | ^~
+../Core/Src/pingpong_functions.c:8:7: error: expected ';' before 'switch'
+    8 | 22(34)
+      |       ^
+      |       ;
+    9 | switch(i){
+      | ~~~~~~ 
+make: *** [Core/Src/subdir.mk:46: Core/Src/pingpong_functions.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:53:51 **** Incremental Build of configuration Debug for project Ping_Pong ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/pingpong_functions.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/pingpong_functions.d" -MT"Core/Src/pingpong_functions.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/pingpong_functions.o"
+../Core/Src/pingpong_functions.c: In function 'Led_on':
+../Core/Src/pingpong_functions.c:10:15: warning: implicit declaration of function 'HAL_GPIO_WritePin' [-Wimplicit-function-declaration]
+   10 | if (Lednr==i) HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+      |               ^~~~~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:10:33: error: 'LED1_GPIO_Port' undeclared (first use in this function)
+   10 | if (Lednr==i) HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:10:33: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/pingpong_functions.c:10:49: error: 'LED1_Pin' undeclared (first use in this function)
+   10 | if (Lednr==i) HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:10:59: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+   10 | if (Lednr==i) HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+      |                                                           ^~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:11:50: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+   11 | else HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET);
+      |                                                  ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:14:33: error: 'LED2_GPIO_Port' undeclared (first use in this function)
+   14 | if (Lednr==i) HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:14:49: error: 'LED2_Pin' undeclared (first use in this function)
+   14 | if (Lednr==i) HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:18:33: error: 'LED3_GPIO_Port' undeclared (first use in this function)
+   18 | if (Lednr==i) HAL_GPIO_WritePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:18:49: error: 'LED3_Pin' undeclared (first use in this function)
+   18 | if (Lednr==i) HAL_GPIO_WritePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:22:33: error: 'LED4_GPIO_Port' undeclared (first use in this function)
+   22 | if (Lednr==i) HAL_GPIO_WritePin(LED4_GPIO_Port, LED4_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:22:49: error: 'LED4_Pin' undeclared (first use in this function)
+   22 | if (Lednr==i) HAL_GPIO_WritePin(LED4_GPIO_Port, LED4_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:26:33: error: 'LED5_GPIO_Port' undeclared (first use in this function)
+   26 | if (Lednr==i) HAL_GPIO_WritePin(LED5_GPIO_Port, LED5_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:26:49: error: 'LED5_Pin' undeclared (first use in this function)
+   26 | if (Lednr==i) HAL_GPIO_WritePin(LED5_GPIO_Port, LED5_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:30:33: error: 'LED6_GPIO_Port' undeclared (first use in this function)
+   30 | if (Lednr==i) HAL_GPIO_WritePin(LED6_GPIO_Port, LED6_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:30:49: error: 'LED6_Pin' undeclared (first use in this function)
+   30 | if (Lednr==i) HAL_GPIO_WritePin(LED6_GPIO_Port, LED6_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:34:33: error: 'LED7_GPIO_Port' undeclared (first use in this function)
+   34 | if (Lednr==i) HAL_GPIO_WritePin(LED7_GPIO_Port, LED7_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:34:49: error: 'LED7_Pin' undeclared (first use in this function)
+   34 | if (Lednr==i) HAL_GPIO_WritePin(LED7_GPIO_Port, LED7_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:38:33: error: 'LED8_GPIO_Port' undeclared (first use in this function)
+   38 | if (Lednr==i) HAL_GPIO_WritePin(LED8_GPIO_Port, LED8_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:38:49: error: 'LED8_Pin' undeclared (first use in this function)
+   38 | if (Lednr==i) HAL_GPIO_WritePin(LED8_GPIO_Port, LED8_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+make: *** [Core/Src/subdir.mk:46: Core/Src/pingpong_functions.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:54:49 **** Incremental Build of configuration Debug for project Ping_Pong ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/pingpong_functions.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/pingpong_functions.d" -MT"Core/Src/pingpong_functions.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/pingpong_functions.o"
+../Core/Src/pingpong_functions.c:2:2: error: invalid preprocessing directive #inlude; did you mean #include?
+    2 | #inlude <gpio.h>
+      |  ^~~~~~
+      |  include
+../Core/Src/pingpong_functions.c: In function 'Led_on':
+../Core/Src/pingpong_functions.c:11:15: warning: implicit declaration of function 'HAL_GPIO_WritePin' [-Wimplicit-function-declaration]
+   11 | if (Lednr==i) HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+      |               ^~~~~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:11:33: error: 'LED1_GPIO_Port' undeclared (first use in this function)
+   11 | if (Lednr==i) HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:11:33: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/pingpong_functions.c:11:49: error: 'LED1_Pin' undeclared (first use in this function)
+   11 | if (Lednr==i) HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:11:59: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+   11 | if (Lednr==i) HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+      |                                                           ^~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:12:50: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+   12 | else HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET);
+      |                                                  ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:15:33: error: 'LED2_GPIO_Port' undeclared (first use in this function)
+   15 | if (Lednr==i) HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:15:49: error: 'LED2_Pin' undeclared (first use in this function)
+   15 | if (Lednr==i) HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:19:33: error: 'LED3_GPIO_Port' undeclared (first use in this function)
+   19 | if (Lednr==i) HAL_GPIO_WritePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:19:49: error: 'LED3_Pin' undeclared (first use in this function)
+   19 | if (Lednr==i) HAL_GPIO_WritePin(LED3_GPIO_Port, LED3_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:23:33: error: 'LED4_GPIO_Port' undeclared (first use in this function)
+   23 | if (Lednr==i) HAL_GPIO_WritePin(LED4_GPIO_Port, LED4_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:23:49: error: 'LED4_Pin' undeclared (first use in this function)
+   23 | if (Lednr==i) HAL_GPIO_WritePin(LED4_GPIO_Port, LED4_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:27:33: error: 'LED5_GPIO_Port' undeclared (first use in this function)
+   27 | if (Lednr==i) HAL_GPIO_WritePin(LED5_GPIO_Port, LED5_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:27:49: error: 'LED5_Pin' undeclared (first use in this function)
+   27 | if (Lednr==i) HAL_GPIO_WritePin(LED5_GPIO_Port, LED5_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:31:33: error: 'LED6_GPIO_Port' undeclared (first use in this function)
+   31 | if (Lednr==i) HAL_GPIO_WritePin(LED6_GPIO_Port, LED6_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:31:49: error: 'LED6_Pin' undeclared (first use in this function)
+   31 | if (Lednr==i) HAL_GPIO_WritePin(LED6_GPIO_Port, LED6_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:35:33: error: 'LED7_GPIO_Port' undeclared (first use in this function)
+   35 | if (Lednr==i) HAL_GPIO_WritePin(LED7_GPIO_Port, LED7_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:35:49: error: 'LED7_Pin' undeclared (first use in this function)
+   35 | if (Lednr==i) HAL_GPIO_WritePin(LED7_GPIO_Port, LED7_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+../Core/Src/pingpong_functions.c:39:33: error: 'LED8_GPIO_Port' undeclared (first use in this function)
+   39 | if (Lednr==i) HAL_GPIO_WritePin(LED8_GPIO_Port, LED8_Pin, GPIO_PIN_SET);
+      |                                 ^~~~~~~~~~~~~~
+../Core/Src/pingpong_functions.c:39:49: error: 'LED8_Pin' undeclared (first use in this function)
+   39 | if (Lednr==i) HAL_GPIO_WritePin(LED8_GPIO_Port, LED8_Pin, GPIO_PIN_SET);
+      |                                                 ^~~~~~~~
+make: *** [Core/Src/subdir.mk:46: Core/Src/pingpong_functions.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+15:55:51 **** Incremental Build of configuration Debug for project Ping_Pong ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/pingpong_functions.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/pingpong_functions.d" -MT"Core/Src/pingpong_functions.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/pingpong_functions.o"
+arm-none-eabi-gcc -o "Ping_Pong.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Ping_Pong\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ping_Pong.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ping_Pong.elf
+ 
+arm-none-eabi-size  Ping_Pong.elf 
+arm-none-eabi-objdump -h -S Ping_Pong.elf  > "Ping_Pong.list"
+   text	   data	    bss	    dec	    hex	filename
+   6996	     12	   1572	   8580	   2184	Ping_Pong.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ping_Pong.list
+ 
+16:05:50 **** Incremental Build of configuration Debug for project Ping_Pong ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/pingpong_functions.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/pingpong_functions.d" -MT"Core/Src/pingpong_functions.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/pingpong_functions.o"
+arm-none-eabi-gcc -o "Ping_Pong.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Ping_Pong\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ping_Pong.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ping_Pong.elf
+ 
+arm-none-eabi-size  Ping_Pong.elf 
+arm-none-eabi-objdump -h -S Ping_Pong.elf  > "Ping_Pong.list"
+   text	   data	    bss	    dec	    hex	filename
+   6996	     12	   1572	   8580	   2184	Ping_Pong.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ping_Pong.list
+ 
