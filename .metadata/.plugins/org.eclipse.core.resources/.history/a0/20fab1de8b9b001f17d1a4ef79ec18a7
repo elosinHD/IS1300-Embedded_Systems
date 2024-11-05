@@ -1,0 +1,35 @@
+#include <stdint.h>
+
+
+void Test_program(void)
+{
+Test_Show_Points(2, 3);
+HAL_Delay(10000);
+}
+
+
+void Test_Led(void)
+{
+int8_t Lednr;
+/* Loop checking that all leds can be turned on*/
+for (Lednr=1; Lednr<= 8; Lednr++) {
+Led_on(Lednr);
+HAL_Delay(500);
+}
+Led_on(9); // Turn off led 8
+HAL_Delay(1000); // 1000 ms
+return;
+}
+
+void Test_Show_Points(uint8_t L_points, uint8_t R_points){
+    
+    // Show points on the left side (Left to Right)
+    for (int i = 1; i <= L_points; i++){
+        Led_on(i);
+    }
+    // Show points on the right side (Right to Left)
+    for (int i = 8; i >= 8-L_points; i--){
+        Led_on(i);
+    }
+    return;
+}

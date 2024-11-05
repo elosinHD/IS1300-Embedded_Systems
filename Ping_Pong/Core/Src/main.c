@@ -25,6 +25,7 @@
 #include "Pingpong.h"
 #include "pingpong_functions.h"
 #include "Test.h"
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -69,7 +70,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+#undef RUN_TEST_PROGRAM
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
