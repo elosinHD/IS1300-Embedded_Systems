@@ -1,21 +1,10 @@
-22:41:54 **** Incremental Build of configuration Debug for project Ping_Pong ****
+10:21:09 **** Incremental Build of configuration Debug for project Ping_Pong ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/pingpong.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/pingpong.d" -MT"Core/Src/pingpong.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/pingpong.o"
-../Core/Src/pingpong.c: In function 'Pingpong':
-../Core/Src/pingpong.c:83:21: warning: implicit declaration of function 'HAL_Delay' [-Wimplicit-function-declaration]
-   83 |                     HAL_Delay(100);
-      |                     ^~~~~~~~~
-arm-none-eabi-gcc -o "Ping_Pong.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Ping_Pong\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ping_Pong.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ping_Pong.elf
- 
 arm-none-eabi-size  Ping_Pong.elf 
-arm-none-eabi-objdump -h -S Ping_Pong.elf  > "Ping_Pong.list"
    text	   data	    bss	    dec	    hex	filename
    8456	     12	   1572	  10040	   2738	Ping_Pong.elf
 Finished building: default.size.stdout
  
-Finished building: Ping_Pong.list
- 
 
-22:41:55 Build Finished. 0 errors, 1 warnings. (took 899ms)
+10:21:09 Build Finished. 0 errors, 0 warnings. (took 320ms)
 

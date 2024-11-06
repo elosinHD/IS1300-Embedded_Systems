@@ -2890,3 +2890,10 @@ Finished building: default.size.stdout
  
 Finished building: Ping_Pong.list
  
+10:21:09 **** Incremental Build of configuration Debug for project Ping_Pong ****
+make -j16 all 
+arm-none-eabi-size  Ping_Pong.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8456	     12	   1572	  10040	   2738	Ping_Pong.elf
+Finished building: default.size.stdout
+ 
