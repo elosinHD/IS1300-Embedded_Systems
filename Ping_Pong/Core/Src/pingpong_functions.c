@@ -175,10 +175,6 @@ void Show_Points(uint8_t L_points, uint8_t R_points){
     return;
 }
 
-void Flash_Led(void){
-
-}
-
 void Show_End_Points(uint8_t L_points, uint8_t R_points){
         
         // Show points on the left side (Left to Right)
