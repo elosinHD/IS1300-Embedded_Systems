@@ -1,0 +1,20 @@
+2024-11-25 11:43:08,432 [INFO] WebApp:189 - Connection lost
+2024-11-25 11:43:12,262 [INFO] WebAppUi:1056 - Web application message: Reloading CAD
+2024-11-25 11:43:18,908 [INFO] WebApp:186 - Connection restablished
+2024-11-25 11:43:22,201 [INFO] WebApp:189 - Connection lost
+2024-11-25 11:43:22,328 [INFO] WebApp:186 - Connection restablished
+2024-11-25 11:45:03,723 [INFO] WebApp:189 - Connection lost
+2024-11-25 11:45:03,858 [INFO] WebApp:186 - Connection restablished
+2024-11-25 13:16:59,560 [INFO] WebApp:189 - Connection lost
+2024-11-25 13:17:21,689 [INFO] WebApp:186 - Connection restablished
+2024-11-25 13:17:40,729 [INFO] WebApp:189 - Connection lost
+2024-11-25 13:17:40,897 [INFO] WebApp:186 - Connection restablished
+2024-11-25 13:18:02,099 [INFO] WebApp:189 - Connection lost
+2024-11-25 13:18:02,275 [INFO] WebApp:186 - Connection restablished
+2024-11-25 13:18:10,716 [INFO] WebApp:189 - Connection lost
+2024-11-25 13:18:10,980 [INFO] WebApp:186 - Connection restablished
+2024-11-25 13:25:13,518 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2024-11-25 13:25:18,048 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2024-11-25 13:25:18,156 [INFO] DmaTabbedPanel:205 - Cannot restore the selected Tab for DMA
+2024-11-25 13:25:28,419 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)
+2024-11-25 13:28:52,477 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 498980488 Bytes (862978048)
