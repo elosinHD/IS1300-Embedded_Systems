@@ -1,0 +1,17 @@
+15:50:52 **** Incremental Build of configuration Debug for project Embedded Systems - Last Project ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/traffic.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/traffic.d" -MT"Core/Src/traffic.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/traffic.o"
+arm-none-eabi-gcc -o "Embedded Systems - Last Project.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Embedded Systems - Last Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Embedded Systems - Last Project.elf
+ 
+arm-none-eabi-size  Embedded\ Systems\ -\ Last\ Project.elf 
+arm-none-eabi-objdump -h -S Embedded\ Systems\ -\ Last\ Project.elf  > "Embedded Systems - Last Project.list"
+   text	   data	    bss	    dec	    hex	filename
+  16516	     36	   1804	  18356	   47b4	Embedded Systems - Last Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: Embedded Systems - Last Project.list
+ 
+
+15:50:53 Build Finished. 0 errors, 0 warnings. (took 767ms)
+

@@ -1,0 +1,6 @@
+../Core/Src/traffic.c:26:6:sendLightData	16	static
+../Core/Src/traffic.c:36:6:readCarSwitches	24	static
+../Core/Src/traffic.c:44:6:readPedestrianButtons	24	static
+../Core/Src/traffic.c:50:6:writeLightData	16	static
+../Core/Src/traffic.c:168:6:task1_pedestrian	16	static
+../Core/Src/traffic.c:264:6:startTraffic	8	static

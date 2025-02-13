@@ -27,25 +27,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  0000400c  2**0
                   CONTENTS, READONLY
- 12 .debug_info   00004d91  00000000  00000000  0000403c  2**0
+ 12 .debug_info   00004d7f  00000000  00000000  0000403c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00001477  00000000  00000000  00008dcd  2**0
+ 13 .debug_abbrev 0000145e  00000000  00000000  00008dbb  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00000648  00000000  00000000  0000a248  2**3
+ 14 .debug_aranges 00000640  00000000  00000000  0000a220  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_rnglists 0000048b  00000000  00000000  0000a890  2**0
+ 15 .debug_rnglists 00000485  00000000  00000000  0000a860  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  00024657  00000000  00000000  0000ad1b  2**0
+ 16 .debug_macro  00024657  00000000  00000000  0000ace5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00007520  00000000  00000000  0002f372  2**0
+ 17 .debug_line   0000750b  00000000  00000000  0002f33c  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000de513  00000000  00000000  00036892  2**0
+ 18 .debug_str    000de509  00000000  00000000  00036847  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  00114da5  2**0
+ 19 .comment      00000043  00000000  00000000  00114d50  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  0000166c  00000000  00000000  00114de8  2**2
+ 20 .debug_frame  0000164c  00000000  00000000  00114d94  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 0000006f  00000000  00000000  00116454  2**0
+ 21 .debug_line_str 0000006f  00000000  00000000  001163e0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1653,10 +1653,6 @@ void Show_Points(uint8_t L_points, uint8_t R_points){
  8000b84:	bd80      	pop	{r7, pc}
 
 08000b86 <Show_End_Points>:
-
-void Flash_Led(void){
-
-}
 
 void Show_End_Points(uint8_t L_points, uint8_t R_points){
  8000b86:	b580      	push	{r7, lr}

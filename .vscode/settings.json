@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "functions.h": "c",
+        "spi.h": "c",
+        "traffic.h": "c"
+    }
+}

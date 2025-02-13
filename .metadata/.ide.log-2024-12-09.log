@@ -1,0 +1,480 @@
+2024-12-10 13:28:13,994 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI3, SYS, USART2]
+2024-12-10 13:32:41,865 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI3, SYS, USART2]
+2024-12-10 13:33:32,844 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI3, SYS, USART2]
+2024-12-10 13:35:19,010 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 313405056 Bytes (801112064)
+2024-12-10 13:35:21,840 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 360379632 Bytes (801112064)
+2024-12-10 13:35:22,175 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 13:35:22,176 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 13:35:22,176 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 13:35:22,176 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 13:35:22,176 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 13:35:22,176 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 13:35:22,178 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 13:35:22,339 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 13:35:22,436 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 13:35:22,552 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 13:35:22,715 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 13:35:22,749 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 13:35:22,868 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 13:35:23,223 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 13:35:23,401 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 13:35:23,436 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 13:35:23,550 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 13:35:23,587 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 13:35:23,733 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 13:35:23,741 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 13:35:23,834 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 13:35:23,893 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 13:35:24,096 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 13:35:24,148 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 13:35:24,293 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 13:35:24,353 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 13:35:24,506 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 13:35:24,534 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 13:35:24,624 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 13:35:24,677 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 13:35:24,809 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 13:35:24,900 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 13:35:25,028 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 13:35:25,083 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 13:35:25,204 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 13:35:25,797 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 288mS.
+2024-12-10 13:35:25,801 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 13:35:25,909 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 13:35:26,893 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1092mS.
+2024-12-10 13:35:26,894 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-10 13:35:26,899 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 13:41:19,502 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 600764008 Bytes (801112064)
+2024-12-10 13:41:24,162 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 679933544 Bytes (801112064)
+2024-12-10 13:41:24,524 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 13:41:24,524 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 13:41:24,524 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 13:41:24,524 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 13:41:24,524 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 13:41:24,524 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 13:41:24,526 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 13:41:24,672 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 13:41:24,781 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 13:41:24,851 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 13:41:24,957 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 13:41:24,966 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 13:41:25,065 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 13:41:25,279 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 13:41:25,451 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 13:41:25,475 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 13:41:25,561 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 13:41:25,588 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 13:41:25,707 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 13:41:25,715 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 13:41:25,799 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 13:41:25,837 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 13:41:25,960 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 13:41:25,969 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 13:41:26,061 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 13:41:26,095 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 13:41:26,218 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 13:41:26,223 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 13:41:26,313 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 13:41:26,340 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 13:41:26,481 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 13:41:26,545 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 13:41:26,640 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 13:41:26,666 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 13:41:26,822 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 13:41:27,266 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 234mS.
+2024-12-10 13:41:27,271 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 13:41:27,371 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 13:41:28,229 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 959mS.
+2024-12-10 13:41:28,230 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-10 13:41:28,235 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-10 13:42:26,897 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 330631848 Bytes (801112064)
+2024-12-10 13:42:28,642 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 378342056 Bytes (801112064)
+2024-12-10 13:42:28,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 13:42:28,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 13:42:28,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 13:42:28,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 13:42:28,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 13:42:28,938 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 13:42:28,940 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 13:42:29,063 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 13:42:29,172 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 13:42:29,239 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 13:42:29,338 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 13:42:29,347 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 13:42:29,437 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 13:42:29,635 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 13:42:29,826 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 13:42:29,854 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 13:42:29,952 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 13:42:29,981 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 13:42:30,115 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 13:42:30,123 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 13:42:30,217 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 13:42:30,254 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 13:42:30,371 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 13:42:30,381 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 13:42:30,464 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 13:42:30,495 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 13:42:30,620 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 13:42:30,626 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 13:42:30,708 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 13:42:30,740 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 13:42:30,884 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 13:42:30,956 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 13:42:31,063 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 13:42:31,093 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 13:42:31,215 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 13:42:31,648 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 222mS.
+2024-12-10 13:42:31,652 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 13:42:31,759 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 13:42:32,595 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 943mS.
+2024-12-10 13:42:32,596 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-10 13:42:32,600 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-10 13:45:30,205 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI3, SYS, USART2]
+2024-12-10 13:48:19,944 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 383880752 Bytes (916455424)
+2024-12-10 13:48:21,804 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 432115248 Bytes (916455424)
+2024-12-10 13:48:21,935 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 13:48:21,935 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 13:48:21,935 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 13:48:21,935 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 13:48:21,935 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 13:48:21,935 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 13:48:21,936 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 13:48:22,040 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 13:48:22,097 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 13:48:22,150 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 13:48:22,228 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 13:48:22,247 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 13:48:22,319 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 13:48:22,471 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 13:48:22,555 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 13:48:22,576 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 13:48:22,653 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 13:48:22,667 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 13:48:22,754 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 13:48:22,759 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 13:48:22,841 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 13:48:22,869 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 13:48:22,956 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 13:48:22,982 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 13:48:23,051 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 13:48:23,078 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 13:48:23,172 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 13:48:23,186 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 13:48:23,245 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 13:48:23,269 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 13:48:23,352 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 13:48:23,399 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 13:48:23,477 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 13:48:23,503 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 13:48:23,598 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 13:48:23,844 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 128mS.
+2024-12-10 13:48:23,847 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 13:48:23,907 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 13:48:25,324 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1477mS.
+2024-12-10 13:48:25,325 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-10 13:48:25,326 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 13:49:30,370 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI3, SYS, USART2]
+2024-12-10 13:49:30,397 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-10 13:50:29,859 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 500410584 Bytes (973078528)
+2024-12-10 13:50:31,760 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 533965016 Bytes (973078528)
+2024-12-10 13:50:31,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 13:50:31,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 13:50:31,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 13:50:31,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 13:50:31,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 13:50:31,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 13:50:31,916 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 13:50:31,988 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 13:50:32,049 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 13:50:32,088 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 13:50:32,143 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 13:50:32,148 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 13:50:32,201 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 13:50:32,296 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 13:50:32,390 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 13:50:32,395 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 13:50:32,444 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 13:50:32,467 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 13:50:32,529 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 13:50:32,534 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 13:50:32,587 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 13:50:32,605 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 13:50:32,663 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 13:50:32,667 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 13:50:32,713 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 13:50:32,734 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 13:50:32,802 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 13:50:32,805 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 13:50:32,846 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 13:50:32,861 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 13:50:32,941 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 13:50:32,976 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 13:50:33,028 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 13:50:33,043 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 13:50:33,105 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 13:50:33,338 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 124mS.
+2024-12-10 13:50:33,341 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 13:50:33,401 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 13:50:33,887 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 546mS.
+2024-12-10 13:50:33,888 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-10 13:50:33,890 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 13:51:27,045 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 339650272 Bytes (973078528)
+2024-12-10 13:51:28,384 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 323154744 Bytes (973078528)
+2024-12-10 13:51:28,530 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 13:51:28,530 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 13:51:28,530 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 13:51:28,530 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 13:51:28,530 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 13:51:28,530 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 13:51:28,531 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 13:51:28,601 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 13:51:28,661 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 13:51:28,695 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 13:51:28,749 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 13:51:28,754 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 13:51:28,823 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 13:51:28,918 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 13:51:29,008 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 13:51:29,014 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 13:51:29,085 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 13:51:29,104 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 13:51:29,165 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 13:51:29,169 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 13:51:29,221 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 13:51:29,236 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 13:51:29,311 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 13:51:29,315 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 13:51:29,373 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 13:51:29,390 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 13:51:29,466 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 13:51:29,469 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 13:51:29,518 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 13:51:29,536 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 13:51:29,613 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 13:51:29,659 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 13:51:29,727 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 13:51:29,742 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 13:51:29,829 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 13:51:30,075 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 133mS.
+2024-12-10 13:51:30,078 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 13:51:30,131 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 13:51:30,598 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 520mS.
+2024-12-10 13:51:30,599 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-10 13:51:30,602 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 13:52:58,286 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 717488600 Bytes (973078528)
+2024-12-10 13:52:59,710 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 766245336 Bytes (973078528)
+2024-12-10 13:52:59,850 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 13:52:59,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 13:52:59,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 13:52:59,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 13:52:59,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 13:52:59,851 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 13:52:59,851 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 13:52:59,916 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 13:52:59,983 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 13:53:00,035 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 13:53:00,090 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 13:53:00,094 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 13:53:00,148 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 13:53:00,239 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 13:53:00,327 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 13:53:00,333 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 13:53:00,378 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 13:53:00,394 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 13:53:00,457 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 13:53:00,470 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 13:53:00,516 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 13:53:00,538 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 13:53:00,590 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 13:53:00,595 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 13:53:00,647 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 13:53:00,663 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 13:53:00,723 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 13:53:00,726 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 13:53:00,774 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 13:53:00,791 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 13:53:00,868 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 13:53:00,904 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 13:53:00,957 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 13:53:00,972 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 13:53:01,033 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 13:53:01,265 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 123mS.
+2024-12-10 13:53:01,267 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 13:53:01,319 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 13:53:01,736 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 469mS.
+2024-12-10 13:53:01,736 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 13:53:01,738 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 13:53:41,472 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI3, SYS, USART2]
+2024-12-10 13:58:12,158 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 462532792 Bytes (973078528)
+2024-12-10 13:58:13,824 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 619819192 Bytes (973078528)
+2024-12-10 13:58:13,984 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 13:58:13,984 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 13:58:13,984 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 13:58:13,984 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 13:58:13,984 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 13:58:13,984 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 13:58:13,985 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 13:58:14,056 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 13:58:14,117 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 13:58:14,149 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 13:58:14,232 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 13:58:14,237 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 13:58:14,289 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 13:58:14,383 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 13:58:14,442 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 13:58:14,446 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 13:58:14,492 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 13:58:14,509 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 13:58:14,571 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 13:58:14,576 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 13:58:14,621 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 13:58:14,641 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 13:58:14,699 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 13:58:14,702 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 13:58:14,751 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 13:58:14,770 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 13:58:14,830 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 13:58:14,833 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 13:58:14,872 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 13:58:14,891 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 13:58:14,978 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 13:58:15,021 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 13:58:15,072 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 13:58:15,087 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 13:58:15,147 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 13:58:15,390 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 132mS.
+2024-12-10 13:58:15,392 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 13:58:15,448 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 13:58:15,884 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 491mS.
+2024-12-10 13:58:15,884 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 13:58:15,887 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 14:47:11,822 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-10 14:47:11,908 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-10 14:47:16,101 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 427928504 Bytes (973078528)
+2024-12-10 14:47:26,540 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 578401208 Bytes (973078528)
+2024-12-10 14:47:26,680 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 14:47:26,680 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 14:47:26,680 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 14:47:26,680 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 14:47:26,680 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 14:47:26,680 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 14:47:26,681 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 14:47:26,733 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 14:47:26,794 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 14:47:26,827 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 14:47:26,894 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 14:47:26,899 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 14:47:26,960 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 14:47:27,051 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 14:47:27,147 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 14:47:27,161 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 14:47:27,214 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 14:47:27,231 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 14:47:27,303 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 14:47:27,308 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 14:47:27,360 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 14:47:27,377 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 14:47:27,494 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 14:47:27,498 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 14:47:27,549 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 14:47:27,566 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 14:47:27,641 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 14:47:27,643 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 14:47:27,689 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 14:47:27,704 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 14:47:27,780 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 14:47:27,816 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 14:47:27,874 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 14:47:27,888 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 14:47:27,957 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 14:47:28,236 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 148mS.
+2024-12-10 14:47:28,238 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 14:47:28,289 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 14:47:28,735 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 496mS.
+2024-12-10 14:47:28,735 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 14:47:28,738 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 15:44:43,491 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 735469016 Bytes (973078528)
+2024-12-10 15:44:43,618 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 15:44:43,618 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 15:44:43,618 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 15:44:43,618 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 15:44:43,618 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 15:44:43,618 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 15:44:43,619 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 15:44:43,673 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 15:44:43,735 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 15:44:43,775 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 15:44:43,848 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 15:44:43,853 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 15:44:43,906 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 15:44:44,002 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 15:44:44,069 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 15:44:44,085 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 15:44:44,134 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 15:44:44,154 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 15:44:44,216 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 15:44:44,223 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 15:44:44,287 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 15:44:44,306 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 15:44:44,398 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 15:44:44,402 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 15:44:44,445 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 15:44:44,464 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 15:44:44,536 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 15:44:44,539 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 15:44:44,585 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 15:44:44,600 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 15:44:44,676 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 15:44:44,712 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 15:44:44,781 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 15:44:44,798 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 15:44:44,865 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 15:44:45,186 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 146mS.
+2024-12-10 15:44:45,188 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 15:44:45,239 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 15:44:45,692 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 504mS.
+2024-12-10 15:44:45,693 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-12-10 15:44:45,696 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 15:47:43,328 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 760984904 Bytes (973078528)
+2024-12-10 15:47:43,463 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2024-12-10 15:47:43,463 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-10 15:47:43,463 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-10 15:47:43,463 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-10 15:47:43,463 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-10 15:47:43,463 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-10 15:47:43,465 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-12-10 15:47:43,524 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp_save
+2024-12-10 15:47:43,586 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\license.tmp
+2024-12-10 15:47:43,620 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c_save
+2024-12-10 15:47:43,674 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\gpio.c
+2024-12-10 15:47:43,678 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h_save
+2024-12-10 15:47:43,729 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\gpio.h
+2024-12-10 15:47:43,817 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c_save
+2024-12-10 15:47:43,874 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\spi.c
+2024-12-10 15:47:43,878 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h_save
+2024-12-10 15:47:43,927 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\spi.h
+2024-12-10 15:47:43,944 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c_save
+2024-12-10 15:47:44,006 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\usart.c
+2024-12-10 15:47:44,011 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h_save
+2024-12-10 15:47:44,055 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\usart.h
+2024-12-10 15:47:44,073 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c_save
+2024-12-10 15:47:44,127 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_it.c
+2024-12-10 15:47:44,132 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h_save
+2024-12-10 15:47:44,177 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_it.h
+2024-12-10 15:47:44,194 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c_save
+2024-12-10 15:47:44,255 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\stm32l4xx_hal_msp.c
+2024-12-10 15:47:44,259 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp_save
+2024-12-10 15:47:44,300 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\MXTmpFiles\system.tmp
+2024-12-10 15:47:44,315 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-12-10 15:47:44,393 [INFO] CodeEngine:335 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\stm32l4xx_hal_conf.h
+2024-12-10 15:47:44,431 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h_save
+2024-12-10 15:47:44,482 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Inc\main.h
+2024-12-10 15:47:44,497 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c_save
+2024-12-10 15:47:44,578 [INFO] CodeEngine:279 - Generated code: C:\Users\erik\Documents\GitHub\IS1300-Embedded_Systems\Embedded Systems - Last Project\Core\Src\main.c
+2024-12-10 15:47:44,854 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 126mS.
+2024-12-10 15:47:44,856 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-12-10 15:47:44,908 [INFO] ConfigFileManager:1531 - The Die is : DIE415
+2024-12-10 15:47:45,317 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 461mS.
+2024-12-10 15:47:45,317 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-12-10 15:47:45,319 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.

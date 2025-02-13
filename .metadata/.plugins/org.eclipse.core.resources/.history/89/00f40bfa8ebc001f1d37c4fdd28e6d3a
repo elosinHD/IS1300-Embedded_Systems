@@ -1,0 +1,6 @@
+#include <stdint.h>
+
+void sendLightData(uint8_t *trafficLights);
+void readCarSwitches(uint8_t *carSwitches);
+void readPedestrianButtons(uint8_t *pedestrianButtons);
+void writeLightData (uint8_t *trafficLights, TrafficLightPort_t trafficLightPort, TrafficLightState_t trafficLightState);

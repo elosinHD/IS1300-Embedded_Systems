@@ -4,7 +4,6 @@
 ../Core/Src/pingpong_functions.c:130:6:Led_off	1
 ../Core/Src/pingpong_functions.c:148:6:Led_Flash	2
 ../Core/Src/pingpong_functions.c:165:6:Show_Points	3
-../Core/Src/pingpong_functions.c:178:6:Flash_Led	1
-../Core/Src/pingpong_functions.c:182:6:Show_End_Points	3
-../Core/Src/pingpong_functions.c:201:6:L_hit	2
-../Core/Src/pingpong_functions.c:212:6:R_hit	2
+../Core/Src/pingpong_functions.c:178:6:Show_End_Points	3
+../Core/Src/pingpong_functions.c:197:6:L_hit	2
+../Core/Src/pingpong_functions.c:208:6:R_hit	2

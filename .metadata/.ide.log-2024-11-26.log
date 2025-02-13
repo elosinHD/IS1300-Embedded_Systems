@@ -1,0 +1,14 @@
+2024-11-26 10:26:54,626 [INFO] WebApp:189 - Connection lost
+2024-11-26 10:27:00,351 [INFO] WebAppUi:1056 - Web application message: Reloading CAD
+2024-11-26 10:27:05,859 [INFO] WebApp:186 - Connection restablished
+2024-11-26 10:27:08,735 [INFO] WebApp:189 - Connection lost
+2024-11-26 10:27:08,876 [INFO] WebApp:186 - Connection restablished
+2024-11-26 10:28:51,233 [INFO] WebApp:189 - Connection lost
+2024-11-26 10:28:51,383 [INFO] WebApp:186 - Connection restablished
+2024-11-26 14:18:40,067 [INFO] WebApp:189 - Connection lost
+2024-11-26 14:18:40,239 [INFO] WebApp:186 - Connection restablished
+2024-11-26 15:06:56,723 [INFO] WebApp:189 - Connection lost
+2024-11-26 15:06:56,905 [INFO] WebApp:186 - Connection restablished
+2024-11-26 15:28:56,559 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, USART2]
+2024-11-26 15:28:56,612 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-26 15:29:19,203 [ERROR] RtosPanel:558 - Can not restore the selected Tab for FREERTOS(A reason can be that the tab is no more available.)

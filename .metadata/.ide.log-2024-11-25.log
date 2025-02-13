@@ -1,0 +1,9 @@
+2024-11-28 09:17:16,916 [INFO] WebApp:189 - Connection lost
+2024-11-28 09:17:17,358 [INFO] WebApp:186 - Connection restablished
+2024-11-28 09:55:08,160 [INFO] WebApp:189 - Connection lost
+2024-11-28 09:55:08,277 [INFO] WebApp:186 - Connection restablished
+2024-11-28 10:21:57,708 [INFO] WebApp:189 - Connection lost
+2024-11-28 10:21:57,887 [INFO] WebApp:186 - Connection restablished
+2024-11-28 10:33:23,035 [INFO] WebApp:388 - JxBrowser engine has been closed 
+2024-11-28 10:33:23,036 [INFO] WebAppUi:453 - JxBrowser engine has been closed 
+2024-11-28 10:33:23,036 [INFO] WebAppUi:490 - Close the Jxbrowser engine manually

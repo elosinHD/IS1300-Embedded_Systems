@@ -1,0 +1,13 @@
+2024-11-27 00:00:22,777 [INFO] WebApp:189 - Connection lost
+2024-11-27 00:00:22,906 [INFO] WebApp:186 - Connection restablished
+2024-11-27 10:58:09,890 [INFO] WebApp:189 - Connection lost
+2024-11-27 10:58:19,861 [INFO] WebAppUi:1056 - Web application message: Reloading CAD
+2024-11-27 10:58:21,492 [INFO] WebApp:186 - Connection restablished
+2024-11-27 10:58:23,719 [INFO] WebApp:189 - Connection lost
+2024-11-27 10:58:23,880 [INFO] WebApp:186 - Connection restablished
+2024-11-27 20:25:13,708 [INFO] WebApp:189 - Connection lost
+2024-11-27 20:25:15,452 [INFO] WebApp:186 - Connection restablished
+2024-11-27 20:25:15,603 [INFO] WebApp:189 - Connection lost
+2024-11-27 20:25:15,751 [INFO] WebApp:186 - Connection restablished
+2024-11-27 20:25:18,735 [INFO] WebApp:189 - Connection lost
+2024-11-27 20:25:18,836 [INFO] WebApp:186 - Connection restablished
